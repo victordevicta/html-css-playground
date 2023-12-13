@@ -1,0 +1,76 @@
+@import url("https://fonts.cdnfonts.com/css/old-english-five");
+@import url("https://fonts.googleapis.com/css2?family=Noto+Serif+Lao&family=Old+Standard+TT&family=Reem+Kufi+Ink&display=swap");
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  height: 100vh;
+  box-sizing: border-box;
+  background-color: black;
+  color: white;
+}
+
+.title-strong {
+  color: crimson;
+  font-weight: 100;
+}
+
+.text-strong {
+  font-family: "Noto Serif Lao", serif;
+}
+
+.content {
+  margin: 10% 5%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.content__text {
+  width: 615px;
+  display: flex;
+  flex-direction: column;
+  gap: 40px;
+}
+
+.content__text__title {
+  font-size: 26px;
+  font-family: "Old English Five", sans-serif;
+  font-weight: 100;
+}
+
+.content__text__body {
+  font-size: 24px;
+  font-family: "Old Standard TT", serif;
+}
+
+.content__buttons {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  gap: 32px;
+}
+
+.content__buttons__subtitle {
+  font-family: "Old Standard TT", serif;
+}
+
+.content__buttons__link {
+  background-color: rgb(34, 0, 7);
+  border: 2px solid crimson;
+  width: 280px;
+  text-align: center;
+  border-radius: 16px;
+  font-size: 24px;
+  padding: 21.5px 0;
+  text-decoration: none;
+  font-weight: 100;
+  font-family: "Reem Kufi Ink", sans-serif;
+}
+
+.content__image {
+  width: 650px;
+}
